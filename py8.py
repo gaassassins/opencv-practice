@@ -8,7 +8,7 @@ def on_change(x):
 cv2.namedWindow('Image')
 cv2.createTrackbar('Value', 'Image', 0, 255, on_change)
 img1 = cv2.VideoCapture(0)
-lut = cv2.imread('lut1.png')
+lut = cv2.imread('lut2.png')
 
 while True:
 	_, frame = img1.read()
